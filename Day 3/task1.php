@@ -21,20 +21,15 @@ foreach($data as $index => $d) {
                 if($d[($currentPos)] == "#" && $station == 0) {
                         $data[$index][($currentPos)] = "X";
                         $trees++;
-                }else{
-                    // $data[$index][($currentPos)] = "O";
                 }
         }else{
                 if($d[($currentPos)] == "#" && $station == 0) {
                         $data[$index][($currentPos)] = "X";
                         $trees++;
-                }else{
-                    // $data[$index][($currentPos)] = "O";
                 }
         }
         $station++;
     }
 }
-var_export($data);
 echo $trees;
 exit;

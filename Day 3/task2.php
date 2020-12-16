@@ -23,7 +23,6 @@ foreach($data as $index => $d) {
                 if($data[$index][($currentPos)] == "#" && $station == 0) {
                         $data[$index][($currentPos)] = "X";
                         $trees++;
-                }else{ 
                 }
             }else{
                 if($data[$index][($currentPos)] == "#" && $station == 0) {
